@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Return Policy page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <!--start navbar-->
+  <nav class="navbar" id="navbar">
+    <div class="navbar-brand">
+      <i class="bi bi-lightning-charge-fill"></i>
+      <span class="logo">TechCorp</span>
+    </div>
+
+    <div class="toggle-btn" onclick="toggleMenu()"> <i class="bi bi-menu-button-wide"></i> </div>
+
+    <div class="navbar-menu" id="nav-menu">
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="services.html">Service</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="album.html">Album</a></li>
+        <li><a href="privacyPolicy.html">Privacy Policy</a></li>
+        <li><a href="returnPolicy.html">Return Policy</a></li>
+        <li><a href="terms.html">Terms</a></li>
+        <li><a href="team.html">Team</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!--end navbar-->
+
+  <script>
+    function toggleMenu() {
+      const navbar = document.getElementById('navbar');
+      navbar.classList.toggle('active');
+    }
+  </script>
+
+
+  <!--start return section -->
+  <section class="return-section style-of-section">
+  <div class="container">
+    <h2>Return & Refund Policy</h2>
+    <p>
+      Clients can request project cancellations or refunds within 14 days of delivery if the service does not meet agreed terms.
+    </p>
+
+    <ul class="return-list">
+      <li>
+        <strong>Unused Services:</strong> Refunds apply only to services that haven’t been accessed or used.
+      </li>
+      <li>
+        <strong>Valid Reason:</strong> Requests must include a clear reason and may require additional documentation.
+      </li>
+      <li>
+        <strong>Partial Refunds:</strong> Available in special situations, subject to review and approval.
+      </li>
+      <li>
+        <strong>Processing Time:</strong> Refunds are processed within 5–7 business days.
+      </li>
+    </ul>
+  </div>
+</section>
+  <!--start return section -->
+
+
+<!--start footer-->
+<footer class="footer">
+  <div class="container">
+    <p>&copy; 2025 TechCorp. All rights reserved.</p>
+  </div>
+</footer>
+<!--end footer-->
+
+</body>
+</html>

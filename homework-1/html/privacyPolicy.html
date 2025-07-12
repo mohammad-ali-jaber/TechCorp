@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <!--start navbar-->
+  <nav class="navbar" id="navbar">
+    <div class="navbar-brand">
+      <i class="bi bi-lightning-charge-fill"></i>
+      <span class="logo">TechCorp</span>
+    </div>
+
+    <div class="toggle-btn" onclick="toggleMenu()"> <i class="bi bi-menu-button-wide"></i> </div>
+
+    <div class="navbar-menu" id="nav-menu">
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="services.html">Service</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="album.html">Album</a></li>
+        <li><a href="privacyPolicy.html">Privacy Policy</a></li>
+        <li><a href="returnPolicy.html">Return Policy</a></li>
+        <li><a href="terms.html">Terms</a></li>
+        <li><a href="team.html">Team</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!--end navbar-->
+
+  <script>
+    function toggleMenu() {
+      const navbar = document.getElementById('navbar');
+      navbar.classList.toggle('active');
+    }
+  </script>
+
+
+  <!--start policy section -->
+  <section class="policy-section style-of-section">
+  <div class="container">
+    <h2>Privacy Policy</h2>
+    <p>
+      We value your privacy. This policy explains how we collect, use, and protect your data when you use our website or services.
+    </p>
+
+    <div class="policy-articles">
+
+      <article>
+        <h3>Data Sales</h3>
+        <p>We do not sell your personal data under any circumstances.</p>
+      </article>
+
+      <article>
+        <h3>Data Security</h3>
+        <p>Your data is stored securely and only used to improve our services.</p>
+      </article>
+
+      <article>
+        <h3>Data Deletion</h3>
+        <p>You have the right to request the deletion of your data at any time.</p>
+      </article>
+
+      <article>
+        <h3>Cookies</h3>
+        <p>We use cookies to enhance your user experience on our site.</p>
+      </article>
+
+      <article>
+        <h3>Third-party Services</h3>
+        <p>Our partners comply with strict data protection laws and are carefully selected.</p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+  <!--end policy section -->
+
+
+<!--start footer-->
+<footer class="footer">
+  <div class="container">
+    <p>&copy; 2025 TechCorp. All rights reserved.</p>
+  </div>
+</footer>
+<!--end footer-->
+
+</body>
+</html>
