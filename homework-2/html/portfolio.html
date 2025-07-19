@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+
+  <!--start navbar-->
+    <nav class=" fixed-top navbar navbar-expand-lg background">
+  
+      <div class="container">
+  
+      
+        <a class="navbar-brand" href="index.html"><i class="text-warning bi bi-lightning-charge-fill"></i><span class="text-white fw-bold">TechCorp </span></a>
+
+      <button class="navbar-toggler border-secondary py-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <i class="bi bi-menu-button-wide text-white"></i>      
+       </button>
+       
+      <div class="collapse navbar-collapse ps-3 pb-3 ps-lg-0 pb-lg-0" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link text-white active" aria-current="page" href="index.html">Home</a></li>
+
+          <li class="nav-item"><a class="nav-link text-white" href="about.html">About</a></li>
+
+          <li class="nav-item"><a class="nav-link text-white" href="contact.html">Contact</a></li>
+                    
+          <li class="nav-item"><a class="nav-link text-white" href="services.html">Services</a></li>
+
+          <li class="nav-item"><a class="nav-link text-white" href="portfolio.html">Portfolio</a></li>
+
+          <li class="nav-item"><a class="nav-link text-white" href="album.html">Album</a></li>
+                    
+          <li class="nav-item"><a class="nav-link text-white" href="privacyPolicy.html">Privacy Policy</a></li>
+
+          <li class="nav-item"> <a class="nav-link text-white"href="returnPolicy.html">Return Policy</a> </li>
+
+          <li class="nav-item"><a class="nav-link text-white " href="terms.html"> Terms</a></li>
+         
+          <li class="nav-item"><a class="nav-link text-white" href="team.html">Team</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--end navbar-->
+
+
+
+  <!-- start portfolio carousel section -->
+<section class="portfolio-section py-5 bg-dark text-white">
+  <div class="container">
+    <h2 class="text-center  pt-5 ">Our Work</h2>
+    <p class="text-center text-secondary mb-5">Explore some of the amazing projects we've built for clients worldwide.</p>
+
+    <div id="portfolioCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-5 mb-4">
+              <div class="card text-white shadow">
+                 <img src="../images/image1.png" class="card-img-top" alt="Fintech Dashboard" style="height: 200px; object-fit: cover;" data-bs-toggle="tooltip"
+             title="A modern banking dashboard built with React and Node.js.">
+                <div class="card-body">
+                  <h5 class="card-title text-warning">Fintech Dashboard</h5>
+                  <p class="card-text text-secondary">Real-time banking dashboard with React.js and Node.js.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-5 mb-4">
+              <div class="card text-white shadow">
+                <img src="../images/image2.png" class="card-img-top" alt="E-Commerce Platform" style="height: 200px; object-fit: cover;" data-bs-toggle="tooltip"
+             title="An online shopping platform built with Laravel and Vue.js.">
+                <div class="card-body">
+                  <h5 class="card-title text-warning">E-Commerce Platform</h5>
+                  <p class="card-text text-secondary">Online retail solution with full payment and admin panel.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-5 mb-4">
+              <div class="card text-white  shadow">
+               <img src="../images/image3.png" class="card-img-top" alt="AI Chatbot System" style="height: 200px; object-fit: cover;" data-bs-toggle="tooltip"
+             title="An AI-powered chatbot system developed using Python.">
+                <div class="card-body">
+                  <h5 class="card-title text-warning">CRM System</h5>
+                  <p class="card-text text-secondary">Customer management system with custom analytics and dashboards.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-5 mb-4">
+              <div class="card text-white shadow">
+                <img src="../images/image4.png" class="card-img-top" alt="Jewelry CRM System" style="height: 200px; object-fit: cover;" data-bs-toggle="tooltip"
+             title="A CRM system tailored for maintenance shops and jewelry businesses.">
+                <div class="card-body">
+                  <h5 class="card-title text-warning">Mobile App</h5>
+                  <p class="card-text text-secondary">Cross-platform mobile app for e-learning with Flutter and Firebase.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="prev">
+        <i class="bi bi-arrow-left-circle-fill fs-2 text-warning"></i>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="next">
+        <i class="bi bi-arrow-right-circle-fill fs-2 text-warning"></i>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</section>
+<!-- end portfolio carousel section -->
+
+
+<!--start footer-->
+<footer class="background text-white pt-4 pb-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center mb-3">
+        <a class="navbar-brand" href="index.html"><i class="text-warning bi bi-lightning-charge-fill"></i><span class="text-white fw-bold">TechCorp </span></a>
+        <div class="text-center mt-3">
+         <a href="https://www.facebook.com/mhmd.ly.jbr.796137" target="-brand" class="btn btn-outline-light btn-sm rounded-2 mx-1">
+            <i class="bi bi-facebook"></i>
+             </a>
+          <a href="https://x.com/Jaber78421949" target="-brand" class="btn btn-outline-light btn-sm rounded-2 mx-1">
+            <i class="bi bi-twitter"></i>
+             </a>
+          <a href="https://www.linkedin.com/in/%D9%85%D8%AD%D9%85%D8%AF-%D8%B9%D9%84%D9%8A-%D8%B4%D8%A7%D8%AF%D9%8A-%D8%B2%D9%83%D8%B1%D9%8A%D8%A7-%D8%AC%D8%A8%D8%B1-877777366/" target="-brand" class="btn btn-outline-light btn-sm rounded-2 mx-1">
+            <i class="bi bi-linkedin"></i>
+            </a>
+          <a href="https://www.instagram.com/mohammadali_sh_jaber/" target="-brand" class="btn btn-outline-light btn-sm rounded-2 mx-1">
+            <i class="bi bi-instagram"></i>
+            </a>
+          </div>
+                </div>
+            </div>
+            <div class="row text-center text-md-start">
+                <div class="col-md-4 mb-3">
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="about.html" class="text-white text-decoration-none">About Us</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">FAQ</a></li>
+                        <li class="mb-2"><a href="services.html" class="text-white text-decoration-none">Services</a></li>
+                        <li><a href="contact.html" class="text-white text-decoration-none">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-md-4 mb-3">
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="returnPolicy.html" class="text-white text-decoration-none">Return Policy</a></li>
+                        <li class="mb-2"><a href="terms.html" class="text-white text-decoration-none">Terms and Conditions</a></li>
+                        <li class="mb-2"><a href="privacyPolicy.html" class="text-white text-decoration-none">Privacy Policy</a></li>
+                        <li><a href="team.html" class="text-white text-decoration-none">Teams</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5 class="mb-3">Contact Us</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="bi bi-telephone me-2"></i> 00970568326197</li>
+                        <li class="mb-2"><i class="bi bi-envelope me-2"></i> info@gridsapps.com</li>
+                        <li><i class="bi bi-geo-alt me-2"></i> Dubai, Musqat, Amman, Cairo, Ramallah</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-3">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="mb-0">Copyright © 2025. All Rights Reserved By TechCorp</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+<!--end footer-->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

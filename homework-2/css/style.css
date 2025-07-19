@@ -1,0 +1,57 @@
+/*start header section */
+.Main-section{
+    background-color:#374151;
+}
+
+.Main-section .carousel{
+    position: unset;
+}
+
+.Main-section .carousel-control-prev,
+.Main-section .carousel-control-next,
+.portfolio-section .carousel-control-prev,
+.portfolio-section .carousel-control-next {
+  width: auto;
+  height: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  padding: 0 15px;
+}
+
+.Main-section .carousel-control-prev {
+  left: 15px;
+}
+
+.Main-section .carousel-control-next {
+  right: 15px; 
+  padding-right: 80px;
+}
+/*end header section */
+
+/* stsrt  Services Section  */
+.service-box {
+  padding: 30px 25px;
+  border-radius: 15px;
+}
+/* end  Services Section  */
+
+a:hover{
+ color: blue !important;
+  transform: scale(1.2);
+  transition: all 0.3s ease;
+}
+.background{
+  background-color: #111;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: gold;
+} 
+
+.accordion-item {
+  border-left: 2px solid gold !important;
+  border-radius: 6px;
+}
+
